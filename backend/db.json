@@ -8,12 +8,17 @@
     {
       "id": 2,
       "name": "Notebook",
-      "price": 1200.50
+      "price": 1200.5
     },
     {
       "id": 3,
       "name": "Samsung S20",
       "price": 5000.99
+    },
+    {
+      "name": "Geladeira",
+      "price": 1599,
+      "id": 4
     }
   ]
 }
