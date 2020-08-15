@@ -17,6 +17,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatSidenavModule } from  '@angular/material/sidenav';
 import { MatListModule } from '@angular/material/list';
 import { MatCardModule } from  '@angular/material/card';
+import { MatButtonModule } from  '@angular/material/button';
 
 import { RedDirective } from './directives/red.directive';
 import { ForDirective } from './directives/for.directive';
@@ -40,7 +41,8 @@ import { ForDirective } from './directives/for.directive';
     MatToolbarModule,
     MatSidenavModule,
     MatListModule,
-    MatCardModule
+    MatCardModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent] //componente q vai ser carregado quando inicializar a aplicação
