@@ -34,6 +34,11 @@
       "name": "Produto de teste 3",
       "price": 125.98,
       "id": 7
+    },
+    {
+      "name": "Lápis preto",
+      "price": 2.5,
+      "id": 8
     }
   ]
 }
