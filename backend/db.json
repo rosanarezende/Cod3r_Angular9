@@ -29,6 +29,11 @@
       "name": "Lápis preto",
       "price": 2.2,
       "id": 8
+    },
+    {
+      "name": "teste",
+      "price": 123,
+      "id": 9
     }
   ]
 }
