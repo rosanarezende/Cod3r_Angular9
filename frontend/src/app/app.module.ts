@@ -14,6 +14,8 @@ import { FooterComponent } from './components/template/footer/footer.component';
 import { NavComponent } from './components/template/nav/nav.component';
 import { ProductCreateComponent } from './components/product/product-create/product-create.component';
 import { ProductReadComponent } from './components/product/product-read/product-read.component';
+import { ProductUpdateComponent } from './components/product/product-update/product-update.component';
+import { ProductDeleteComponent } from './components/product/product-delete/product-delete.component';
 
 import { HomeComponent } from './views/home/home.component';
 import { ProductCrudComponent } from './views/product-crud/product-crud.component';
@@ -34,7 +36,6 @@ import { FormsModule } from '@angular/forms';
 
 import { RedDirective } from './directives/red.directive';
 import { ForDirective } from './directives/for.directive';
-import { ProductUpdateComponent } from './components/product/product-update/product-update.component';
 
 registerLocaleData(localePt);
 
@@ -51,6 +52,7 @@ registerLocaleData(localePt);
     ProductCreateComponent,
     ProductReadComponent,
     ProductUpdateComponent,
+    ProductDeleteComponent,
   ],
   imports: [
     BrowserModule,
